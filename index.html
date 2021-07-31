@@ -10,7 +10,7 @@
 
 $params = array(
 	'client_id'     => '23f429aebcdc6b16765b',
-	'redirect_uri'  => 'https://ваш_домен/oauth-githud.php',
+	'redirect_uri'  => 'https://avalin24.github.io',
 	'scope'         => 'user',
 	'response_type' => 'code',
 	'state'         => ''
@@ -18,3 +18,86 @@ $params = array(
  
 $url = 'https://github.com/login/oauth/authorize?' . urldecode(http_build_query($params));
 echo '<a href="Обработка.вх.рег.pnp' . $url . '">Войти через GitHub</a>';
+
+<?php
+if (!empty($_GET['code'])) {
+	$params = array(
+		'client_id'     => '23f429aebcdc6b16765b',
+		'client_secret' => '6e18abecf75ffbac9d9cd44f972249c58d6587ad',
+		'redirect_uri'  => 'https://avalin24.github.io/',
+		'code'          => $_GET['code']
+	);	
+			
+	$ch = curl_init('https://github.com/login/oauth/access_token');
+	curl_setopt($ch, CURLOPT_POST, 1);
+	curl_setopt($ch, CURLOPT_POSTFIELDS, urldecode(http_build_query($params))); 
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+	curl_setopt($ch, CURLOPT_HEADER, false);
+	$data = curl_exec($ch);
+	curl_close($ch);	
+	parse_str($data, $data);
+ 
+	if (!empty($data['access_token'])) {
+		$ch = curl_init('https://api.github.com/user');
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+		curl_setopt($ch, CURLOPT_HTTPHEADER, array('Authorization: token ' . $data['access_token']));
+		curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88');
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		$info = curl_exec($ch);
+		curl_close($ch);
+		$info = json_decode($info, true);
+ 
+		if (!empty($info['id'])) {
+			print_r($info);
+		}
+	} 
+}
+Array
+(
+    [login] => test
+    [id] => 99999999
+    [node_id] => M3Q6V4Nlcac4Mz6wOTc2
+    [avatar_url] => https://avatars.githubusercontent.com/u/99999999?v=4
+    [gravatar_id] => 
+    [url] => https://api.github.com/users/test
+    [html_url] => https://github.com/test
+    [followers_url] => https://api.github.com/users/test/followers
+    [following_url] => https://api.github.com/users/test/following{/other_user}
+    [gists_url] => https://api.github.com/users/test/gists{/gist_id}
+    [starred_url] => https://api.github.com/users/test/starred{/owner}{/repo}
+    [subscriptions_url] => https://api.github.com/users/test/subscriptions
+    [organizations_url] => https://api.github.com/users/test/orgs
+    [repos_url] => https://api.github.com/users/test/repos
+    [events_url] => https://api.github.com/users/test/events{/privacy}
+    [received_events_url] => https://api.github.com/users/test/received_events
+    [type] => User
+    [site_admin] => 
+    [name] => 
+    [company] => 
+    [blog] => 
+    [location] => 
+    [email] => 
+    [hireable] => 
+    [bio] => 
+    [twitter_username] => 
+    [public_repos] => 0
+    [public_gists] => 0
+    [followers] => 0
+    [following] => 0
+    [created_at] => 2021-02-01T16:15:42Z
+    [updated_at] => 2021-02-01T16:15:43Z
+    [private_gists] => 0
+    [total_private_repos] => 0
+    [owned_private_repos] => 0
+    [disk_usage] => 0
+    [collaborators] => 0
+    [two_factor_authentication] => 
+    [plan] => Array(
+		[name] => free
+		[space] => 976562499
+		[collaborators] => 0
+		[private_repos] => 10000
+	)
+)
