@@ -3,6 +3,8 @@
 <p>Сайт еще в разработке</p>
 <p>Просим покинуть сайт!!!</p>
 
+
+<script>
 $params = array(
 	'client_id'     => '67b0e699681fd8aebcb1',
 	'redirect_uri'  => 'https://avalin.github.io/%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0',
@@ -13,3 +15,4 @@ $params = array(
  
 $url = 'https://github.com/login/oauth/authorize?' . urldecode(http_build_query($params));
 echo '<a href="' . $url . '">Войти через GitHub</a>';
+    </script>
