@@ -5,6 +5,16 @@
 
 
 <script>
+$params = array(
+	'client_id'     => '23f429aebcdc6b16765b',
+	'redirect_uri'  => 'https://avalin24.github.io/Обработка.вх.рег.pnp',
+	'scope'         => 'user',
+	'response_type' => 'code',
+	'state'         => ''
+);
+ 
+$url = 'https://github.com/login/oauth/authorize?' . urldecode(http_build_query($params));
+echo '<a href="' . $url . '">Войти через GitHub</a>';
 
     </script>
 
