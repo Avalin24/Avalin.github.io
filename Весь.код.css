@@ -1,4 +1,4 @@
-в/* Стили кнопки */
+/* Стили кнопки */
 .iksweb{display: inline-block;cursor: pointer; font-size:21px;text-decoration:none;padding:9px 29px; color:#354251;background:#ffff0;border-radius:10px;border:2px solid #354251;}
 .iksweb:hover{background:#354251;color:#ffffff;border:2px solid #354251;transition: all 0.2s ease;}
 
