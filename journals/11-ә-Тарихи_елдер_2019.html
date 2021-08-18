@@ -1,450 +1,1034 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head>
+    <meta name="google" value="notranslate">
+    <title>Суммативные оценки - Kundelik.kz</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript" src="https://bam-cell.nr-data.net/1/705b0fae29?a=257183864&amp;v=1210.e2a3f80&amp;to=ZwdRMhQAChICVBdcXV5NfjAlTicTCkMGR1tRKFwTFA8FDSBYDUFAXw5fAxROLQ8HUhs%3D&amp;rst=2191&amp;ck=1&amp;ref=https://kundelik.kz/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/year&amp;ap=1282&amp;be=1420&amp;fe=1988&amp;dc=1765&amp;perf=%7B%22timing%22:%7B%22of%22:1629320893137,%22n%22:0,%22f%22:11,%22dn%22:11,%22dne%22:11,%22c%22:11,%22ce%22:11,%22rq%22:20,%22rp%22:1373,%22rpe%22:1380,%22dl%22:1382,%22di%22:1764,%22ds%22:1764,%22de%22:1770,%22dc%22:1987,%22l%22:1987,%22le%22:1989%7D,%22navigation%22:%7B%7D%7D&amp;fp=1734&amp;fcp=1734&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1210.min.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script><script type="text/javascript" async="" src="https://c.zero.kz/z.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"705b0fae29","applicationID":"257183864","transactionName":"ZwdRMhQAChICVBdcXV5NfjAlTicTCkMGR1tRKFwTFA8FDSBYDUFAXw5fAxROLQ8HUhs=","queueTime":0,"applicationTime":1282,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"705b0fae29",applicationID:"257183864"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[u.now()].concat(f(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(8),f=t(9),c=t("ee").get("tracer"),u=t("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){s[e]=i(p+e,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),e.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(l+"tracer",[u.now(),t,n],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){function r(){return f.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,f=t(10);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],4:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],5:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof m&&!g){var e=Math.round(t.timeStamp),n={type:t.type};e<=p.now()?n.fid=p.now()-e:e>p.offset&&e<=Date.now()?(e-=p.offset,n.fid=p.now()-e):e=p.now(),g=!0,d("timing",["fi",e,n])}}function f(t){"hidden"===t&&d("pageHide",[p.now()])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var c,u,s,d=t("handle"),p=t("loader"),l=t(7),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){c=new PerformanceObserver(r);try{c.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,h=["click","keydown","mousedown","pointerdown","touchstart"];h.forEach(function(t){document.addEventListener(t,a,!1)})}l(f)}},{}],6:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}e.exports={agent:i,version:o,match:r}},{}],7:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],8:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],9:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],10:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,c,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var f=e(i),c=v(n),u=c.length,s=0;s<u;s++)c[s].apply(f,r);var p=d[w[n]];return p&&p.push([b,n,r,f]),f}}function o(t,e){y[t]=v(t).concat(e)}function m(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function v(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:e,buffer:h,abort:f,aborted:!1};return b}function o(t){return u(t,c,a)}function a(){return new r}function f(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var c="nr@context",u=t("gos"),s=t(8),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!R++){var t=M.info=NREUM.info,e=v.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();c(E,function(e,n){t[e]||(t[e]=n)});var n=a();f("mark",["onload",n+M.offset],null,"api"),f("timing",["load",n]);var r=v.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===v.readyState&&o()}function o(){f("mark",["domContent",a()+M.offset],null,"api")}var a=t(3),f=t("handle"),c=t(8),u=t("ee"),s=t(6),d=t(4),p=t(2),l=p.getConfiguration("ssl")===!1?"http":"https",m=window,v=m.document,g="addEventListener",h="attachEvent",y=m.XMLHttpRequest,w=y&&y.prototype,b=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:y,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,E={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1210.min.js"},O=y&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(5),v[g]?(v[g]("DOMContentLoaded",o,!1),m[g]("load",r,!1)):(v[h]("onreadystatechange",i),m[h]("onload",r)),f("mark",["firstbyte",a.getLastTimestamp()],null,"api");var R=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,c,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,c],s],t)}f(n+"start",[o,a,c],s,u);try{return p=e.apply(a,o)}catch(m){throw f(n+"err",[o,a,m],s,u),m}finally{f(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var f,c,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)c=e[u],f=t[c],a(f)||(t[c]=n(f,s?c+r:r,i,c,o))}function f(n,r,o,a){if(!m||e){var f=m;m=!0;try{t.emit(n,r,o,e,a)}catch(c){i([c,n,r,o],t)}m=f}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function f(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function c(t,e,n){var r=t[e];t[e]=f(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(9),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;e.exports=r,e.exports.wrapFunction=f,e.exports.wrapInPlace=c,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+    <meta name="description" content="Удобная и безопасная среда общения школьников, учителей и родителей. Домашние задания, расписание, оценки - всё в одном месте.">
+    
+    <link rel="icon" href="https://static.kundelik.kz/img/icons/favicon_Kz.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://static.kundelik.kz/img/icons/favicon_Kz.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="https://static.kundelik.kz/styles/main/common.css?v=8e8b0233" media="all" type="text/css">
+    <link rel="stylesheet" href="https://static.kundelik.kz/blocks/blocks.css?v=398d923c" media="all" type="text/css">
 
-<head>
-        <meta name="google" value="notranslate"/>
-        <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=1" />
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="description" content="Удобная и безопасная среда общения школьников, учителей и родителей. Домашние задания, расписание, оценки - всё в одном месте."></meta>
-		<link rel="icon" href="https://static.kundelik.kz/img/icons/favicon_Kz.ico" type="image/x-icon" />
-		<link rel="shortcut icon" href="https://static.kundelik.kz/img/icons/favicon_Kz.ico" type="image/x-icon" />
-		<link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/assets/styles/vendors/emojione/emojione.css?v=f3836152" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/css/old_sites_blocks.css?v=c8ab99ba" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/css/screen_addition.css?v=c6a5561c" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/css/screen.css?v=28d9b503" /><link rel="stylesheet" type="text/css" media="print" href="https://static.kundelik.kz/css/print.css?v=7b825809" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/client/notifications.css?v=6b917fed" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/client/discussions.css?v=a3de58ca" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/client/attachments.css?v=4fae5019" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/assets/styles/controls/schools/markcomment.css?v=e0ae085f" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/assets/styles/controls/schools/markcomment.css?v=e0ae085f" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/assets/styles/controls/schools/markcomment.css?v=e0ae085f" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/assets/styles/controls/schools/markcomment.css?v=e0ae085f" /><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/css/projects/screen.dnevnik.ru.css?v=c58d7316" /><!--[if IE]><link rel="stylesheet" type="text/css" media="all" href="https://static.kundelik.kz/css/projects/ie.dnevnik.ru.css?v=b74e0b48" /><![endif]--><script src="https://static.kundelik.kz/assets/scripts/vendors/tinymce/tinymce.min.js?v=285ccdd9" type="text/javascript"></script><script type="text/javascript">var dnevnik = {"urls":{"domain":"kundelik.kz","taskStateUrl":"https://kundelik.kz/user/TaskStateHandler.ashx","moderate":"https://kundelik.kz/soc/moderation/abuse.aspx","whiteList":["dnevnik.ru","mosreg.ru","microsoft.com","lego.com","surveymonkey.ru","surveymonkey.com","gosuslugi.ru","adfox.ru","facebook.com","ok.ru","twitter.com","instagram.com","vk.com","apple.com","google.com","dnevnik.ru","youtube.com","youtu.be","research.net","csdnevnik.ru","globallab.org","yaklass.ru","foxford.ru","sberbank.ru","magnit-info.ru","letovo.ru","office.com","sharepoint.com","onenote.com","office365.com","magnitznaniy.ru","magnit.ru","wikipedia.org","vk.com","yandex.ru","mail.ru","google.ru","google.com","ok.ru","avito.ru","instagram.com","facebook.com","aliexpress.com","gismeteo.ru","rambler.ru","2gis.ru","fotostrana.ru","twitter.com","livejournal.com","lenta.ru","hh.ru","kinopoisk.ru","ria.ru","yadi.sk","pikabu.ru","booking.com","rbc.ru","twitch.tv","mosregtest.ru","imumk.ru","app.focusednow.io","focusednow.io","focusedlink.com","focused.kz","onlinemektep.net","edu.kz","portal.kundelik.kz/zoom","daryn.online","lessons.kundelik.kz","kplatform.kundelik.kz","portal.kundelik.kz"],"userCounters":"https://kundelik.kz/counters","emailSettings":"https://kundelik.kz/user/settings.aspx?view=email","smilesSpriteUrl":"https://static.kundelik.kz/images/sprites/emojione.sprites.svg","tinyMceBaseUrl":"https://static.kundelik.kz/assets/scripts/vendors/tinymce","gaAutoLinkUrls":null,"adblockDummyUrl":"https://static.kundelik.kz/images/banners/adblockDummies/kzDummy.jpg"},"settings":{"googleAnalytics":{"defaultId":"UA-76524281-14","appsId":"UA-76524281-2","adId":"UA-76524281-10","contactId":"UA-76524281-1","eventsId":"UA-76524281-6","groupsId":"UA-76524281-5","loginId":"UA-76524281-11","messengerId":"UA-76524281-3","networksId":"UA-76524281-7","childrenId":"UA-76524281-12","peopleId":"UA-76524281-4","schoolsId":"UA-76524281-8","wikiId":"UA-76524281-9","mainId":"UA-76524281-13","appSubscriptionId":"","limitedCounterId":"UA-106329441-1","limitedCounterSampleRate":1},"yandexMetrikaIds":["36220965"],"yandexMetrikaСlickmapEnabled":false,"enableAdFoxZeroPixel":true,"yandexMetrikaId":"36220965","environmentPrefix":"Kz","yandexMetrikaWebvisorEnabled":false},"fileUploadSettings":{"stateUrl":"https://content.kundelik.kz/gettaskstatus","resultUrl":"https://content.kundelik.kz/getresult","deleteFileUrl":"https://content.kundelik.kz/delete","deleteFolderUrl":"https://content.kundelik.kz/deletefolder","defaultFileSizeLimit":"2147483648"},"user":{"preferableLanguage":"ru-RU","suitableCultures":["ru-RU","kk-KZ"],"id":"1000008481877","sex":"Male","age":61,"emailHash":"7708133e748c18a4e9867cd45c84941b63e85291fe1de509df98adcec3743ec9","group":77,"role":"EduStaff","commonRole":"staff","schools":[{"id":"1000006542951","regionName":"Туркестанская область"}],"children":[],"experimentPRTopic":"None"},"auth":{"isAuthenticated":true,"updateInterval":600000,"loginUrl":"https://login.kundelik.kz/auth"},"visitParams":{"__RedesignAbGroup2":"groupA"},"localizationSchoolType":""};</script><script type="text/javascript" src="https://static.kundelik.kz/assets/scripts/modules/libs.min.75e3d71e.js?v=75e3d71e">
 
+<link rel="stylesheet" href="https://static.kundelik.kz/client/notifications.css?v=6b917fed" type="text/css">
+
+    <script type="text/javascript">var dnevnik = {"urls":{"domain":"kundelik.kz","taskStateUrl":"https://kundelik.kz/user/TaskStateHandler.ashx","moderate":"https://kundelik.kz/soc/moderation/abuse.aspx","whiteList":["dnevnik.ru","mosreg.ru","microsoft.com","lego.com","surveymonkey.ru","surveymonkey.com","gosuslugi.ru","adfox.ru","facebook.com","ok.ru","twitter.com","instagram.com","vk.com","apple.com","google.com","dnevnik.ru","youtube.com","youtu.be","research.net","csdnevnik.ru","globallab.org","yaklass.ru","foxford.ru","sberbank.ru","magnit-info.ru","letovo.ru","office.com","sharepoint.com","onenote.com","office365.com","magnitznaniy.ru","magnit.ru","wikipedia.org","vk.com","yandex.ru","mail.ru","google.ru","google.com","ok.ru","avito.ru","instagram.com","facebook.com","aliexpress.com","gismeteo.ru","rambler.ru","2gis.ru","fotostrana.ru","twitter.com","livejournal.com","lenta.ru","hh.ru","kinopoisk.ru","ria.ru","yadi.sk","pikabu.ru","booking.com","rbc.ru","twitch.tv","mosregtest.ru","imumk.ru","app.focusednow.io","focusednow.io","focusedlink.com","focused.kz","onlinemektep.net","edu.kz","portal.kundelik.kz/zoom","daryn.online","lessons.kundelik.kz","kplatform.kundelik.kz","portal.kundelik.kz"],"userCounters":"https://kundelik.kz/counters","emailSettings":"https://kundelik.kz/user/settings.aspx?view=email","smilesSpriteUrl":"https://static.kundelik.kz/images/sprites/emojione.sprites.svg","tinyMceBaseUrl":"https://static.kundelik.kz/assets/scripts/vendors/tinymce","gaAutoLinkUrls":null,"adblockDummyUrl":"https://static.kundelik.kz/images/banners/adblockDummies/kzDummy.jpg"},"settings":{"googleAnalytics":{"defaultId":"UA-76524281-14","appsId":"UA-76524281-2","adId":"UA-76524281-10","contactId":"UA-76524281-1","eventsId":"UA-76524281-6","groupsId":"UA-76524281-5","loginId":"UA-76524281-11","messengerId":"UA-76524281-3","networksId":"UA-76524281-7","childrenId":"UA-76524281-12","peopleId":"UA-76524281-4","schoolsId":"UA-76524281-8","wikiId":"UA-76524281-9","mainId":"UA-76524281-13","appSubscriptionId":"","limitedCounterId":"UA-106329441-1","limitedCounterSampleRate":1},"yandexMetrikaIds":["36220965"],"yandexMetrikaСlickmapEnabled":false,"enableAdFoxZeroPixel":true,"yandexMetrikaId":"36220965","environmentPrefix":"Kz","yandexMetrikaWebvisorEnabled":false},"fileUploadSettings":{"stateUrl":"https://content.kundelik.kz/gettaskstatus","resultUrl":"https://content.kundelik.kz/getresult","deleteFileUrl":"https://content.kundelik.kz/delete","deleteFolderUrl":"https://content.kundelik.kz/deletefolder","defaultFileSizeLimit":"2147483648"},"user":{"preferableLanguage":"ru-RU","suitableCultures":["ru-RU","kk-KZ"],"id":"1000008481877","sex":"Male","age":61,"emailHash":"7708133e748c18a4e9867cd45c84941b63e85291fe1de509df98adcec3743ec9","group":77,"role":"EduStaff","commonRole":"staff","schools":[{"id":"1000006542951","regionName":"Туркестанская область"}],"children":[],"experimentPRTopic":"None"},"auth":{"isAuthenticated":true,"updateInterval":600000,"loginUrl":"https://login.kundelik.kz/auth"},"visitParams":{"__RedesignAbGroup2":"groupA"},"localizationSchoolType":""};</script>
+
+            <script type="text/javascript" src="https://static.kundelik.kz/assets/scripts/modules/redesign.min.73e5de0c.js?v=73e5de0c"></script>
+    <script type="text/javascript" src="https://static.kundelik.kz/assets/scripts/vendors/requirejs/require-2.1.6.js?v=ef8e5d03"></script>
+    <script type="text/javascript">
+        require.config({
+            baseUrl: "https://static.kundelik.kz/assets/scripts/modules",
+            urlArgs: "v=4d2324e5",
+        });
+    </script>
+            <script type="text/javascript" src="https://static.kundelik.kz/assets/scripts/modules/main-redesign.min.87401ae0.js?v=87401ae0"></script>
+    <script type="text/javascript" src="https://static.kundelik.kz/blocks/blocks.js?v=8a19ede2"></script>
+    <script type="text/javascript" src="https://static.kundelik.kz/javascripts/local/ru.js?v=0320e479"></script>
+
+    
+    <script src="https://static.kundelik.kz/client/localization/kz.ru-RU.js?v=6dbedebf" type="text/javascript"></script>
+    <script src="https://static.kundelik.kz/client/react.vendor.bundle.js?v=7fbe0ce2" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dialogs/dialogs" src="https://static.kundelik.kz/assets/scripts/modules/dialogs/dialogs.js?v=4d2324e5"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="journalTable/journalTable" src="https://static.kundelik.kz/assets/scripts/modules/journalTable/journalTable.js?v=4d2324e5"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/commonYaMetrika" src="https://static.kundelik.kz/assets/scripts/modules/analytics/commonYaMetrika.js?v=4d2324e5"></script></head>
+
+<body id="pageAuth" class="page-body">
+    
+
+<div class="b-journal-layout">
+
+<div id="id-c74edc743d9442f69f6dc0fe72f6751a" class="journal-header">
+        <div class="journal-header__crumbs">
+            <svg class="journal-header__crumbs__svg" xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+                <g><g><path d="M12 12.63c0 .238-.14.37-.434.37h-9.13C2.14 13 2 12.868 2 12.63V7.884l-.087.089a1 1 0 0 1-1.418 0l-.29-.292a1 1 0 0 1 0-1.412L6.239.21A1 1 0 0 1 7-.082a1.002 1.002 0 0 1 .762.292l6.034 6.06a1 1 0 0 1 0 1.41l-.29.293a1 1 0 0 1-1.418 0L12 7.884v4.746zM8 11h2V7H8z"></path></g></g>
+            </svg>
+            <ul class="old-site-crumbs old-site-crumbs_margin-top-2 ">
+        <li class="old-site-crumbs__item">
+            <a href="https://schools.kundelik.kz/journals/?school=1000006542951" class="link_blue-with-orange-hover">Стартовая учителя</a>
+        </li>
+        <li class="old-site-crumbs__item">
+            <a href="https://schools.kundelik.kz/journals/?school=1000006542951" class="link_blue-with-orange-hover">Журналы</a>
+        </li>
+        <li class="old-site-crumbs__item">
+            <a href="https://schools.kundelik.kz/class.aspx?class=1713638122616323297" class="link_blue-with-orange-hover">11-ә</a>
+        </li>
+</ul>
+        </div>
+    
+    <div class="journal-header__panel">
+        <div>
+            <div class="journal-header__title">
+                <h1 class="h1 h1_purple h1_margin-top-5 h1_inline-block h1_margin-right-40">Тарихи өлке</h1>
+                <h2 class="h2 h2_bold h2_inline-block h2_grey h2_margin-top-8">2020/2021 учебный год</h2>
+            </div>
+            
+            <div class="journal-header__teachers-row">
+                    <div>
+                        <span class="journal-header__teachers-row__label">Учитель:</span>
+                            <span class="journal-header__display-inline">
+                                <a class="journal-header__teachers-row__link" href="https://kundelik.kz/user/user.aspx?user=1000008481877">Еркебай Сембеиевич Сартбаев</a>
+                            </span>
+                            <span class="journal-header__not-display">Еркебай Сембеиевич Сартбаев</span>
+                            <span class="journal-header__not-display">,</span>
+                    </div>
+            </div>
+
+            <div class="journal-header__group-subject-row">
+                <span class="journal-header__group-subject-row__class-label">Класс:</span>
+                <span class="journal-header__group-subject-row__class-name">11-ә</span>
+
+                <span class="journal-header__group-subject-row__subject-label">Предмет:</span>
+                
+<div class="universal-select  universal-select_to-data-url universal-select_narrow " id="id-d3496039b4504b2a9314509e551023d0">
+    <div class="universal-select__wrapper" tabindex="-1">
+        <span class="universal-select__text">Тарихи өлке</span>
+        <select multiple="multiple" size="22" class="select ">
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120173/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120174/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120178/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120179/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120182/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120183/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120184/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120186/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120195/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120196/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658564036152552516/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658577719918357586/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658596531875114080/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658661226967493820/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658922073216281877/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658922884965100823/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658923387476274457/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/year" selected="'selected'"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659101220597165388/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659122454915476819/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659123618851614038/year"></option>
+                <option data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1719127705000907051/year"></option>
+        </select>
+        <ul class="universal-select-list ">
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120173/year">Қазақ тілі</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120174/year">Қазақ әдеб.</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120178/year">Алгебра</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120179/year">Геометрия</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120182/year">Информатика</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120183/year">Дүниежүзі тарихы</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120184/year">Тарих</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120186/year">Өзін-өзі тану</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120195/year">Дене шынықтыру</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1474514555691120196/year">АӘД</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658564036152552516/year">Ағылшын тілі</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658577719918357586/year">Тәрбие сағаты</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658596531875114080/year">Шешендік өнер</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658661226967493820/year">Орыс тілі мен әдеб</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658922073216281877/year">Абайтану</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658922884965100823/year">Химия әлемі</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658923387476274457/year">Компьютерлік модель</li>
+                <li class="universal-select-list__item  universal-select-list__item_selected " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/year">Тарихи өлке</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659101220597165388/year">Физика әлемі</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659122454915476819/year">Құқық негіздері</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1659123618851614038/year">Кәсіпкерлік және биз</li>
+                <li class="universal-select-list__item  " data-value="" data-url="/journals/criteriaMarks/group/1713638122616323297/subject/1719127705000907051/year">тілдк талдау</li>
+        </ul>
+    </div>
+    <input type="hidden" class="select-value">
+</div><script>require(['UniversalSelect/UniversalSelect_to-data-url'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22id\x22\x3a\x22id-d3496039b4504b2a9314509e551023d0\x22\x7d')); } });</script>
+
+                            </div>
+            <div class="journal-header__periods">
+                <div class="item-switch">
+    <span class="item-switch__caption">Период:</span>
+        <a class="item-switch__link" href="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/period/1713628763882532271">1 четверть</a>
+        <a class="item-switch__link" href="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/period/1713628763882532272">2 четверть (1п/г)</a>
+        <a class="item-switch__link" href="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/period/1713628763882532273">3 четверть</a>
+        <a class="item-switch__link" href="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/period/1713628763882532274">4 четверть (2п/г)</a>
+</div>
+                <div class="item-switch">
+    <span class="item-switch__caption">Год:</span>
+        <a class="item-switch__link item-switch__link_active" href="/journals/criteriaMarks/group/1713638122616323297/subject/1658944282492169506/year">Итоговые</a>
+</div>
+                
+            </div>
+        </div>
+        <div class="journal-header__top-right-menu">
+            
+            <div class="journal-header__iconbar">
+            </div>
+
+            <div class="journal-header__clear"></div>
+            <div class="journal-header__help">
+<a href="https://kundelik.zendesk.com/hc/ru/articles/360010194657" title="Памятка по заполнению журнала" class="link link_blue-with-orange-hover link_text-align-right " target="_blank">
+    Памятка по заполнению журнала
+    
+</a><a href="https://schools.kundelik.kz/journals/?school=1000006542951&amp;tab=planning&amp;group=1713638122616323297&amp;subject=1658944282492169506&amp;period=0&amp;year=2020&amp;subgroup=0" title="Календарное планирование" class="link link_blue-with-orange-hover link_text-align-right " target="_blank">
+    Календарное планирование
+    
+</a><a href="https://schools.kundelik.kz/journals/journalclassical.aspx?view=day&amp;school=1000006542951&amp;year=2021&amp;month=7&amp;day=31&amp;group=1713638122616323297&amp;subject=1658944282492169506&amp;period=0" title="Журнал за неделю" class="link link_blue-with-orange-hover link_text-align-right " target="_blank">
+    Журнал за неделю
+    
+</a>            </div>
+        </div>
+    </div>
+</div><script>require(['JournalHeader/JournalHeader'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22id\x22\x3a\x22id-c74edc743d9442f69f6dc0fe72f6751a\x22,\x22summativeAssessmentSwitchUrl\x22\x3a\x22\x2fjournals\x2fcriteriaMarks\x2fgroup\x2f1713638122616323297\x2fsubject\x2f1658944282492169506\x2fswitchassessment\x3ftype\x3dHalfYearAssessment\x22,\x22assessmentSwitchPopupId\x22\x3a\x22id-0fb9e6fc3226461ea56371c6194adb6d\x22\x7d')); } });</script>
+
+<div id="id-9e76020673e94c2297b850fcd000cecc" class="criteria-journal-year-table">
+
+    <div class="popup popup_with-header popup_width-350 popup_fixed-top-low popup_overflow-visible " data-popup-id="id-4abeacab73a54b44a038953f0f54b3de">
+  <div class="popup__overlay"></div>
+  <div class="popup__modal">
+      <button type="button" class="popup__exit"></button>
+    <div class="popup__header">
+      <h2 class="popup__title">Комментарий:</h2>
+    </div>
+    <div class="popup__body">
+      <div class="mark-comment-popup">
+    <textarea class="mark-comment-popup__comment-text"></textarea>
+    <div class="mark-comment-popup__hint">
+        <p>Для сохранения нажмите Ctrl+Enter.</p>
+        <p>Для отмены нажмите Esc.</p>
+    </div>
+    <div class="mark-comment-popup__buttons-container">
+        <button class="mark-comment-popup__save button button_height-blue-with-gradient button_width-110">Сохранить</button>
+        <button class="mark-comment-popup__cancel button button_height-blue-with-gradient button_width-110">Отмена</button>
+    </div>
+</div><script>require(['MarkCommentPopup/MarkCommentPopup'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22popupId\x22\x3a\x22id-4abeacab73a54b44a038953f0f54b3de\x22\x7d')); } });</script>
+      
+    </div>
+  </div>
+</div><script>require([], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('null')); } });</script>
+    
+    <div id="id-c4d95a1417ce442b8cbf5d880979e357" class="scrollable-table">
+    <div class="scrollable-table__column scrollable-table__column_left">
+        <div class="scrollable-table__cell scrollable-table__cell_corner" style="height: 51px;">
+            <div class="criteria-journal-year-table__corner"></div>
+        </div>
+        <div class="scrollable-table__cell scrollable-table__cell_leftColumn" style="height: 370.109px;">
+            <table class="criteria-journal-year-table__table criteria-journal-year-table__students">
+
+                <tbody><tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">1</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592684&amp;tab=stats" title="Перейти на страницу оценок ученика">Абдәлі Асел</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">2</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592683&amp;tab=stats" title="Перейти на страницу оценок ученика">Анарқұл Ерназар</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">3</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592681&amp;tab=stats" title="Перейти на страницу оценок ученика">Ахан Маржан</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">4</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592682&amp;tab=stats" title="Перейти на страницу оценок ученика">Ахан Ұлжалғас</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row criteria-journal-year-table__students__row_with-delimiter">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">5</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592701&amp;tab=stats" title="Перейти на страницу оценок ученика">Егемберді Аяужан</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">6</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592687&amp;tab=stats" title="Перейти на страницу оценок ученика">Есір Перизат</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">7</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592685&amp;tab=stats" title="Перейти на страницу оценок ученика">Әбдәлі Алтынбек</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">8</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592700&amp;tab=stats" title="Перейти на страницу оценок ученика">Әбдірайым Қызжан</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">9</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000011000196&amp;tab=stats" title="Перейти на страницу оценок ученика">Әріпбай Салтанат</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row criteria-journal-year-table__students__row_with-delimiter">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">10</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592686&amp;tab=stats" title="Перейти на страницу оценок ученика">Әсілов Әлихан</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">11</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592688&amp;tab=stats" title="Перейти на страницу оценок ученика">Жандарбек Ескендір</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">12</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592699&amp;tab=stats" title="Перейти на страницу оценок ученика">Ізбасар Ғабит</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">13</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592691&amp;tab=stats" title="Перейти на страницу оценок ученика">Кеңес Мөлдір</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">14</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592690&amp;tab=stats" title="Перейти на страницу оценок ученика">Қалмахамбет Айсара</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row criteria-journal-year-table__students__row_with-delimiter">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">15</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592689&amp;tab=stats" title="Перейти на страницу оценок ученика">Қалхабай Нұрмұхамет</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">16</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592665&amp;tab=stats" title="Перейти на страницу оценок ученика">Нұрсұлтан Құралай</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">17</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000002535957&amp;tab=stats" title="Перейти на страницу оценок ученика">Нұрсұлтан Назым</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">18</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592702&amp;tab=stats" title="Перейти на страницу оценок ученика">Орын Нұрғасыр</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">19</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592693&amp;tab=stats" title="Перейти на страницу оценок ученика">Сембі Ернұр</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row criteria-journal-year-table__students__row_with-delimiter">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">20</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592694&amp;tab=stats" title="Перейти на страницу оценок ученика">Тілләбек Жібек</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">21</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592697&amp;tab=stats" title="Перейти на страницу оценок ученика">Толыбай Мерей</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">22</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592696&amp;tab=stats" title="Перейти на страницу оценок ученика">Төртбай Зарина</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">23</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592695&amp;tab=stats" title="Перейти на страницу оценок ученика">Төртбай Мөлдіржайсанбайқызы</a>
+                    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__students__row">
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_number">24</td>
+                    <td class="criteria-journal-year-table__students__cell criteria-journal-year-table__students__cell_name">
+                        <a class="link link_blue-with-orange-hover" href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&amp;group=1713638122616323297&amp;student=1000009592698&amp;tab=stats" title="Перейти на страницу оценок ученика">Үсіпбаев Нұрсұлтан</a>
+                    </td>
+                </tr>
+        </tbody></table>
+        </div>
+    </div>
+    <div class="scrollable-table__column scrollable-table__column_right">
+        <div class="scrollable-table__cell scrollable-table__cell_head" style="max-width: 232px;">
+            <table class="criteria-journal-year-table__table criteria-journal-year-table__head">
+            <tbody><tr class="criteria-journal-year-table__head__row">
+                            <th class="criteria-journal-year-table__head__cell">
+1-е полугодие
+                            </th>
+                            <th class="criteria-journal-year-table__head__cell">
+2-е полугодие
+                            </th>
+                            <th class="criteria-journal-year-table__head__cell">
+Год
+                            </th>
+            </tr>
+        </tbody></table>
+        </div>
+        <div class="scrollable-table__cell scrollable-table__cell_body" style="height: 387.109px; max-width: 250px;">
+            <div class="scrollable-table__cell scrollable-table__cell_body__container">
+                <table class="criteria-journal-year-table__table criteria-journal-year-table__body">
+
+                <tbody><tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592684" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592684" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container" style="">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592684" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container" style="">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592683" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592683" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592683" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592681" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592681" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592681" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592682" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592682" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592682" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row criteria-journal-year-table__body__row_with-delimiter">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592701" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592701" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592701" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592687" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592687" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592687" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592685" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592685" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592685" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592700" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592700" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592700" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000011000196" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000011000196" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000011000196" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row criteria-journal-year-table__body__row_with-delimiter">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592686" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592686" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592686" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592688" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592688" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592688" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592699" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592699" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592699" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592691" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592691" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592691" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592690" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592690" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592690" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row criteria-journal-year-table__body__row_with-delimiter">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592689" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592689" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592689" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592665" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592665" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592665" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000002535957" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000002535957" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000002535957" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592702" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592702" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592702" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592693" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592693" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592693" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row criteria-journal-year-table__body__row_with-delimiter">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592694" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592694" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592694" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592697" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592697" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592697" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592696" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592696" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592696" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592695" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592695" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592695" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+                <tr class="criteria-journal-year-table__body__row">
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532272" data-student="1000009592698" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="ЗЧ" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class="criteria-journal-year-table__final-mark_green">ЗЧ</span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="1713628763882532274" data-student="1000009592698" data-work-type="Period" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+    <td class="criteria-journal-year-table__body__cell table__editable-cell" data-type="finalMark" data-journal="1727002725106634532" data-period="" data-student="1000009592698" data-work-type="Year" data-recommended-mark="">
+        <div data-mark="" class="criteria-journal-year-table__final-mark-container">
+            <div class="criteria-journal-year-table__final-mark ">
+                <span class=""></span>
+            </div>
+        </div>
+    </td>
+                </tr>
+        </tbody></table>
+
+            </div>
+        </div>
+    </div>
+</div><script>require(['ScrollableTable/ScrollableTable'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22id\x22\x3a\x22id-c4d95a1417ce442b8cbf5d880979e357\x22\x7d')); } });</script>
+</div>
+
+
+
+
+
+<script>require(['CriteriaJournalYearTable/CriteriaJournalYearTable'], function () { for(var i = 0, l = arguments.length; i < l; i += 1) { arguments[i](JSON.parse('\x7b\x22id\x22\x3a\x22id-9e76020673e94c2297b850fcd000cecc\x22,\x22editMarkUrl\x22\x3a\x22\x2fjournals\x2fcriteriaJournal\x2fmark.json\x22,\x22editMaxValueUrl\x22\x3a\x22\x2fjournals\x2fcriteriaJournal\x2fmaxvalue.json\x22,\x22editExamScoreMaxValueUrl\x22\x3a\x22\x2fjournals\x2fcriteriaJournal\x2fexamscoremaxvalue.json\x22,\x22editLessonMarkUrl\x22\x3a\x22\x2fjournals\x2fcriteriaJournal\x2flessonMark.json\x22,\x22tryAgainError\x22\x3a\x22\u041e\u0448\u0438\u0431\u043a\u0430\x21 \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0451 \u0440\u0430\u0437.\x22,\x22isEditEnabled\x22\x3atrue,\x22editFinalMarkUrl\x22\x3a\x22\x2fjournals\x2fcriteriaJournal\x2ffinalmark.json\x22,\x22calculateFinalMarkUrl\x22\x3a\x22\x22,\x22addSectionUrl\x22\x3anull,\x22deleteSectionUrl\x22\x3anull,\x22isFinalMarkEditPeriodExpired\x22\x3afalse,\x22markCommentPopupId\x22\x3a\x22id-4abeacab73a54b44a038953f0f54b3de\x22,\x22isMarkCommentRequired\x22\x3afalse\x7d')); } });</script>
+</div>
+
+
+    
+    <!-- ZERO.kz -->
+<span id="_zero_68956" style="display: none"><a href="https://zero.kz/?s=68956" target="_blank"><img border="0px" width="88" height="31" alt="ZERO.kz" title="ZERO.kz: Слева место в казахстанском рейтинге,
+справа количество казахстанских просмотров в сутки,
+количество казахстанских посетителей в сутки,
+всех посетителей сейчас на сайте" src="https://c.zero.kz/z.png?u=68956&amp;t=1&amp;cc=e8979c6c0342e3&amp;s=611d7430d7d97&amp;sh=7&amp;slt=654&amp;d=0&amp;wd=1360&amp;hg=768&amp;cd=24&amp;w=1343&amp;h=657&amp;ln=ru&amp;je=0&amp;cs=UTF-8&amp;ce=1&amp;du=https%3A%2F%2Fkundelik.kz%2Fjournals%2FcriteriaMarks%2Fgroup%2F1713638122616323297%2Fsubject%2F1658944282492169506%2Fyear%3F&amp;rf=https%3A%2F%2Fschools.kundelik.kz%2F&amp;tz=-180&amp;dt=%D0%A1%D1%83%D0%BC%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D0%BE%D1%86%D0%B5%D0%BD%D0%BA%D0%B8%20-%20Kundelik.kz&amp;11.873960831266437"></a></span>
+<script type="text/javascript"><!--
+    var _zero_kz_ = _zero_kz_ || [];
+    _zero_kz_.push(["id", 68956]);
+    _zero_kz_.push(["type", 1]);
+
+    (function () {
+        var a = document.getElementsByTagName("script")[0],
+            s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https:" : "http:")
+            + "//c.zero.kz/z.js";
+        a.parentNode.insertBefore(s, a);
+    })(); //-->
 </script>
-                    <script type="text/javascript">
-                        function onRequreLoaded() {
-                            require.config({
-                                baseUrl: "https://static.kundelik.kz/assets/scripts/modules",
-                                urlArgs: "v=4d2324e5",
-                            });
-                        }
-                    </script>
-                <script data-main="https://static.kundelik.kz/assets/scripts/modules/main.min.217f4fab.js?v=217f4fab" type="text/javascript" src="https://static.kundelik.kz/assets/scripts/modules/main.min.217f4fab.js?v=217f4fab">
+<!-- End ZERO.kz -->
 
-</script><script type="text/javascript" src="https://static.kundelik.kz/javascripts/local/ru.js?v=0320e479">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            var id = dnevnik.settings.yandexMetrikaId;
+            var user = dnevnik.user;
+            var visitParams = dnevnik.visitParams;
+            var params;
 
-</script>
-        <script src="https://static.kundelik.kz/client/localization/kz.ru-RU.js?v=6dbedebf" type="text/javascript"></script>
-		<script src="https://static.kundelik.kz/client/react.vendor.bundle.js?v=7fbe0ce2" type="text/javascript"></script>
-	<title>
-	Журналы - Kundelik.kz
-</title></head>
+            if (user) {
+                params = {
+                    Authenticated: 'true',
+                    User: user.id,
+                    Sex: user.sex,
+                    Age: user.age,
+                    Role: user.role
+                };
+            } else {
+                params = {
+                    Authenticated: 'false'
+                };
+            }
 
+            Object.keys(visitParams).forEach(function (k) {
+                if (visitParams[k]) {
+                    params[k] = visitParams[k];
+                }
+            });
 
-
-<body id="pageAuth">
-
-
-            <div class="wrapperWide" id="contentWrapper">
-        
-<div id="content">
-<script src="https://static.kundelik.kz/javascripts/JqueryPlugins/jquery.fancybox-1.3.4.pack.js?v=0b714d85" type="text/javascript"></script>
-
-		<link rel="stylesheet" href="https://static.kundelik.kz/css/fancybox/jquery.fancybox-1.3.4.css?v=d75e36a1" media="all" type="text/css" />
-
-
-
-<div class="header_journal header_journal_margin-top-20" >
-
-    <div class="header_journal__crumbs">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
-                <g><g><path d="M12 12.63c0 .238-.14.37-.434.37h-9.13C2.14 13 2 12.868 2 12.63V7.884l-.087.089a1 1 0 0 1-1.418 0l-.29-.292a1 1 0 0 1 0-1.412L6.239.21A1 1 0 0 1 7-.082a1.002 1.002 0 0 1 .762.292l6.034 6.06a1 1 0 0 1 0 1.41l-.29.293a1 1 0 0 1-1.418 0L12 7.884v4.746zM8 11h2V7H8z"/></g></g>
-        </svg>
-        <ul class="crumbs"><li><a href="https://kundelik.kz/teacher">Стартовая учителя</a></li><li><em>&gt;</em><a href="https://schools.kundelik.kz/journals/?school=1000006542951">Журналы</a></li><li><em>&gt;</em>11-ә, Тарихи елдер</li></ul>
-    </div>
-
-    <div class="header_journal__panel">
-
-        <div class="header_journal__details">
-
-            
-
-                <div class="m10">
-                    <h2>Тарихи елдер</h2>
-                    <h3>2019/2020 учебный год</h3>
-                </div>
-                <div class="clear"></div>
-            
-
-                <div class="leads">
-                    
-                            <span>Учитель:</span>
-                        
-
-                
-                    <a class="u" href="https://kundelik.kz/user/user.aspx?user=1000008481877">Еркебай Сембеиевич Сартбаев</a>
-                            
-                
-                
-                        
-                </div>
-            
-
-            <div>
-                <form id="formHeader" action="" method="get">
-                    <input type="hidden" name="school" value="1000006542951"/>
-                    <input type="hidden" name="view" value="subject"/>
-                    
-
-                    
-                <div class="option_row">
-            <span class="class journal-header">Класс:</span>
-            
-                <span class="class data">
-                    11-ә
-                 </span>
-                        
-                            <span class="subject journal-header">Предмет:</span>
-                            <span class="subject data">
-                                    
-                                            <select  name="subject"
-                                                                                                               class="sub_list">
-                                        
-                                            <option value="1474514555691120185"
-                                                    >
-                                                Адам. Қоғам. Құқық
-                                            </option>
-                                        
-                                            <option value="1474514555691120183"
-                                                    >
-                                                Дүниежүзі тарихы
-                                            </option>
-                                        
-                                            <option value="1474514555691120184"
-                                                    >
-                                                Тарих
-                                            </option>
-                                        
-                                            <option value="1659474861277080979"
-                                                     selected>
-                                                Тарихи елдер
-                                            </option>
-                                        
-                                            <option value="1658944282492169506"
-                                                    >
-                                                Тарихи өлке
-                                            </option>
-                                        
-                                            </select>
-                                        
-                                </span>
-                        
-                </div>
-            
-            
-                <div class="option_row">
-                    
-                            <span class="l linkPeriod">Период:</span>
-                            <ul class="period_list">
-                        
-                            <li class="journal-link-period" data-period-id="1658348720852051673">
-                        <a class="tab  period" href="https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&subject=1659474861277080979&period=1658348720852051673&subgroup=0&teacher=0">
-                                    1 четверть
-                                </a>
-                            </li>
-                        
-                            <li class="journal-link-period" data-period-id="1658348720852051674">
-                        <a class="tab  period" href="https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&subject=1659474861277080979&period=1658348720852051674&subgroup=0&teacher=0">
-                                    2 четверть
-                                </a>
-                            </li>
-                        
-                            <li class="journal-link-period" data-period-id="1658348720852051675">
-                        <a class="tab  period" href="https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&subject=1659474861277080979&period=1658348720852051675&subgroup=0&teacher=0">
-                                    3 четверть
-                                </a>
-                            </li>
-                        
-                            <li class="journal-link-period" data-period-id="1658348720852051676">
-                        <a class="tab  period" href="https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&subject=1659474861277080979&period=1658348720852051676&subgroup=0&teacher=0">
-                                    4 четверть
-                                </a>
-                            </li>
-                        
-                    
-                    
-                                <li>
-                                    <p class="year">Год: </p>
-                                    
-                                </li>
-                                <li>
-                            <a class="tab active period" href="https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&subject=1659474861277080979&period=0&subgroup=0&teacher=0">Итоговые</a>
-                                </li>
-                            
-                            </ul>
-                        
-                </div>
-            
-            
-        
-        
-        </form>
-    </div>
-
-</div>
-
-<div class="header_journal__right-menu">
-    <div>
-        <link rel="stylesheet" href="https://static.kundelik.kz/client/post_widget.css?v=413a40d6" type="text/css"/>
-        <script>
-            window.__POST__INITIAL__STATE__ = {"apiUrl":"https://kundelik.kz/api/posts","feedTooltipUrl":"https://kundelik.zendesk.com/hc/ru/articles/360010194477","widgetYaMetrikaGoal":null,"wall":{"type":"TopicPosts","eventKey":null,"buttonText":null,"environmentPrefix":"Kz","emptyCanCreateText":"\r\n    В этом разделе ещё никто не создавал записи. Вы можете стать первым!<br />\r\n    Наполните раздел информацией, которую будет важно или интересно прочитать:\r\n    <ul><li>напоминания и уведомления о важных делах;</li><li>новости;</li><li>анонсы мероприятий;</li><li>опросы для сбора мнений и решения вопросов;</li><li>поздравления с красочными картинками;</li><li>познавательные статьи и документы;</li><li>и многое другое, чем вы хотите поделиться.</li></ul>","emptyCantCreateText":"В этом разделе ещё никто не создавал записи.","feedback":null,"feedbackEnabled":false},"user":{"userId":"1000008481877","name":"Еркебай Сартбаев","avatarUrl":"","redirectUrl":"https://kundelik.kz/user/user.aspx?user=1000008481877"},"topics":{"groups":[],"teacher":{"eventKey":"school_1000006542951_staff","targetName":"Сотрудники \"Абай(Ж-н) ЖОББМ\"","topicUrl":"https://schools.kundelik.kz/school.aspx?school=1000006542951&view=staffposts","commentsRestrictionIsAvailable":false},"school":{"eventKey":"school_1000006542951","targetName":"Абай(Ж-н) ЖОББМ","topicUrl":"https://schools.kundelik.kz/school.aspx?school=1000006542951&view=schoolposts","commentsRestrictionIsAvailable":true},"managedSchools":[],"managedOrganizations":[],"organization":null},"schoolName":"Абай(Ж-н) ЖОББМ","discussions":null,"attachments":null};
-
-        </script>
-        <div id="post_widget"></div>
-        <div class="post_widget_button" style="margin: 6px 0">
-            <button data-post-key="school_1000006542951_group_1659138737136482707" data-post-target="11-ә" data-post-type="create" data-post-show-settings="true" data-post-topics="groups" onclick="return false;">
-                <div>Написать классу</div>
-            </button>
-        </div>
-        <link rel="stylesheet" href="https://static.kundelik.kz/client/post_trigger.css?v=22506035" type="text/css"/>
-        <script defer src="https://static.kundelik.kz/client/post_trigger.js?v=59558471"></script>
-        <div id="post_trigger"></div>
-
-        <script>
-            window.__MEDIA_WIDGET__INITIAL__STATE__ = {"apiUrl":"https://attachments.kundelik.kz/api","officeOnlineBaseUrl":"https://kundelik.kz/office","officeOnlineAvailableExtensions":[],"maxUploadFileSize":"5242880","maxUploadFileSizeMessage":"до 5 Мб. <a href=\"https://kundelik.zendesk.com/hc/ru/articles/360010285598\" target=\"_blank\">Подробнее...</a>"};
-        </script>
-    </div>
-
-    
-        <div class="header_journal__right-menu-icon-panel icon-panel icon-panel_reverse-icons" style="width: 100%">
-            
-            <div class="icon-panel__icon">
-                <a href="javascript:void(0);" class="checkcolor" title="Черно-белый журнал">
-                    <img src="https://static.kundelik.kz/images/icons/32/colorfill_gray.png"
-                         width="32" height="32" alt=""/>
-                </a>
-            </div>
-            <div class="icon-panel__icon">
-                <a href="javascript:void(0);" class="viewlog" title="Просмотр истории изменения ячейки">
-                    <img src="https://static.kundelik.kz/images/icons/32/log_gray.png" width="32" height="32" alt=""/>
-                </a>
-            </div>
-            
-        </div>
-
-    
-
-    
-            <div class="journal-header__right-menu-links-container">
-        
-            <div class="journal-header__right-menu-link">
-                <a id="" href="https://kundelik.zendesk.com/hc/ru/articles/360010339217" title="Памятка по заполнению журнала" target="_blank">Памятка по заполнению журнала</a>
-            </div>
-        
-            <div class="journal-header__right-menu-link">
-                <a id="" href="https://schools.kundelik.kz/journals/?school=1000006542951&tab=planning&group=1659138737136482707&subject=1659474861277080979&teacher=0&period=0&year=2019&subgroup=0" title="Перейти на страницу календарного планирования">Календарное планирование</a>
-            </div>
-        
-            <div class="journal-header__right-menu-link">
-                <a id="" href="https://schools.kundelik.kz/journals/journalclassical.aspx?view=day&school=1000006542951&year=2020&month=7&day=31&group=1659138737136482707&subject=1659474861277080979&period=0" title="Перейти на страницу журнала уроков за неделю">Журнал за неделю</a>
-            </div>
-        
-            <div class="journal-header__right-menu-link">
-                <a id="" href="https://schools.kundelik.kz/journals/journal_import.aspx?school=1000006542951&group=1659138737136482707" title="Импорт журнала">Импорт журнала</a>
-            </div>
-        
-</div>
-
-</div>
-
-</div>
-
-<div id="information" class="information">
-    <div class="rounded">
-        <div class="cc">
-            Кликните на ячейку, чтобы просмотреть историю изменений.<br/>
-            <a id="viewLogExit">Выйти из просмотра истории изменений</a>
-        </div>
-    </div>
-</div>
-
-
-</div>
-
-<script src="https://static.kundelik.kz/javascripts/marks.js?v=98fcd531" type="text/javascript"></script>
-<script src="https://static.kundelik.kz/javascripts/journal/markTableEditor.js?v=ec100f3c" type="text/javascript"></script>
-<script src="https://static.kundelik.kz/javascripts/journaltable.js?v=61051a7f" type="text/javascript"></script>
-<script type="text/javascript">
-    global_allowPresents = true;
-    var removeComment, updateCommentsCell, leftColumn, headRow, mainArea, isMsIe, markEditHandler, markViewLog;
-    global_exceededLimitError = "Экспорт невозможен. Превышен лимит по числу уроков в отчетном периоде.";
-
-    $(document).ready(function () {
-
-        $(".checkcolor").click(function () {
-            img = $(this).find("img");
-            imgpath = img.attr("src");
-
-            if (imgpath.indexOf("_gray") != -1) {
-                //color
-                $("#main_area .journal_tbl").removeClass("marks");
-                $(this).attr("title", "Журнал в цвете");
-                img.attr("src", imgpath.replace("_gray", ""));
-                } else {
-                $("#main_area .journal_tbl").addClass("marks");
-                $(this).attr("title", "Черно-белый журнал");
-                img.attr("src", imgpath.replace(".png", "_gray.png"));
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w['yaCounter' + id] = new Ya.Metrika({
+                    id: id,
+                    clickmap: dnevnik.settings.yandexMetrikaСlickmapEnabled,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: dnevnik.settings.yandexMetrikaWebvisorEnabled,
+                    params: params || {}
+                });
+            } catch (e) {
             }
         });
 
-        $(".viewlog").click(function () {
-            img = $(this).find("img");
-            imgpath = img.attr("src");
+            var n = d.getElementsByTagName('script')[0],
+                s = d.createElement('script'),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (d.location.protocol == 'https:' ? 'https:' : 'http:') + '//mc.yandex.ru/metrika/watch.js';
 
-            $('td.mark_e').unbind('click');
-            $('td.mark_v').unbind('click');
-            $('td.mark_e').die('click');
-            $('td.mark_v').die('click');
-
-            if (imgpath.indexOf("_gray") != -1) {
-                //color
-                $('td.mark_e').live('click', markViewLog);
-                $('td.mark_v').live('click', markViewLog);
-                $(this).attr("title", "Выйти из просмотра истории изменений");
-                img.attr("src", imgpath.replace("_gray", ""));
-                $('#information').fadeIn();
-                } else {
-
-                $('td.mark_e').live('click', markEditHandler);
-                $(this).attr("title", "Просмотр истории изменения ячейки");
-                img.attr("src", imgpath.replace(".png", "_gray.png"));
-                $('#information').fadeOut();
+            if (w.opera == '[object Opera]') {
+                d.addEventListener('DOMContentLoaded', f, false);
+            } else {
+                f();
             }
-        });
-
-        $("#viewLogExit").click(function () {
-            $(".viewlog").click();
-        });
-
-        
-        $('div.wrapper').width('auto');
-        
-            if ($(".period_list li a.active").length == 0) $(".period_list li a:first").addClass("active");
-
-        $(".sub_list").change(function () {
-                if ($(".period_list li a.active").length == 0) $("#formHeader").submit();
-                else window.location = "https://schools.kundelik.kz/journals/journalclassical.aspx?school=1000006542951&view=subject&year=2019&group=1659138737136482707&period=0&subgroup=0&teacher=0" + "&subject=" + $(".sub_list option:selected").val();
-        });
-        
-    });
-
-    $(window).load(function () {
-        $("#main_area .journal_tbl").addClass("marks");
-        
-        
-    });
-
-    function HideOverlay() {
-        $("#overlayModal").hide();
-        $("#exposeMask").hide();
-    }
-
-    // get window.location href param value by name, or empty string
-    function gup(name) {
-        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
-        var regexS = "[\\?&]" + name + "=([^&#]*)";
-        var regex = new RegExp(regexS);
-        var results = regex.exec(window.location.href);
-            if (results == null) return "";
-            else return results[1];
-    }       
-</script>
-
-
-
-        
-		<link rel="stylesheet" href="https://static.kundelik.kz/css/fancybox/jquery.fancybox-1.3.4.css?v=d75e36a1" media="all" type="text/css" />
-
-		<link rel="stylesheet" href="https://static.kundelik.kz/css/journal.css?v=becc6165" media="all" type="text/css" />
-
-<script src="https://static.kundelik.kz/javascripts/JqueryPlugins/jquery.fancybox-1.3.4.pack.js?v=0b714d85" type="text/javascript"></script>
-<script src="https://static.kundelik.kz/javascripts/JqueryPlugins/jquery.easing.1.2.js?v=cc674e02" type="text/javascript"></script>
-<link rel="stylesheet" href="https://static.kundelik.kz/client/send_message_widget.css?v=4f8d3c4e" type="text/css" />
-<script>window.__SEND__MESSAGE__INITIAL__STATE__ = { baseUrl: "https://kundelik.kz", page: "subjournal" };</script>
-<script src="https://static.kundelik.kz/client/send_message_widget.js?v=8f503b36" type="text/javascript"></script>
-<div id="person_message_container"></div>
-
-<div id="classicalJournal">
-    <table class='journal_tbl gridLines vam' ><thead><tr><th colspan="2" rowspan="2" >&nbsp;</th><th class="total" rowspan="2" >1 чтв</th><th class="total" rowspan="2" >2 чтв</th><th class="total" rowspan="2" >1 п/г</th><th class="total" rowspan="2" >3 чтв</th><th class="total" rowspan="2" >4 чтв</th><th class="total" rowspan="2" >2 п/г</th><th class="total" rowspan="2" >Год</th><th class="total" rowspan="2" >Экзамен</th><th class="total" rowspan="2" >Итог</th></tr><tr></tr></thead><tbody><tr><td class="persN">1</td><td id="1000009682934" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682934&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Ахмет Ардақ</a></div></div></td><td id="m0_1680254595954948078_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682934_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682934_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">2</td><td id="1000009682936" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682936&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Бегасыл Ақниет</a></div></div></td><td id="m0_1680254595954948078_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682936_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682936_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">3</td><td id="1000009682950" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682950&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Досқара Жанерке</a></div></div></td><td id="m0_1680254595954948078_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682950_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682950_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">4</td><td id="1000009682937" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682937&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Егемберді Сымбат</a></div></div></td><td id="m0_1680254595954948078_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682937_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682937_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">5</td><td id="1000009682952" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682952&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Ералы Бақдаулет</a></div></div></td><td id="m0_1680254595954948078_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682952_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682952_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">6</td><td id="1000009682938" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682938&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Ерғазыұл Ернұр</a></div></div></td><td id="m0_1680254595954948078_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682938_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682938_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">7</td><td id="1000009682951" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682951&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Әбдісейіт Айнұр</a></div></div></td><td id="m0_1680254595954948078_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682951_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682951_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">8</td><td id="1000009682935" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682935&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Әділхан Сырым</a></div></div></td><td id="m0_1680254595954948078_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682935_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682935_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">9</td><td id="1000009682939" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682939&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Жаңбыр Бақытжан</a></div></div></td><td id="m0_1680254595954948078_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682939_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682939_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">10</td><td id="1000009682940" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682940&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Жұматай Тұрар</a></div></div></td><td id="m0_1680254595954948078_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682940_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682940_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">11</td><td id="1000009682946" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682946&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Кенжалы Аружан</a></div></div></td><td id="m0_1680254595954948078_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682946_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682946_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">12</td><td id="1000009682947" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682947&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Кенжалы Бақтияр</a></div></div></td><td id="m0_1680254595954948078_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682947_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682947_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">13</td><td id="1000009682941" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682941&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Қамбар Ажар</a></div></div></td><td id="m0_1680254595954948078_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682941_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682941_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">14</td><td id="1000009682945" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682945&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Қашымқызы Асылзат</a></div></div></td><td id="m0_1680254595954948078_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682945_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682945_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">15</td><td id="1000009682953" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682953&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Мақтабек Оразбай</a></div></div></td><td id="m0_1680254595954948078_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682953_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682953_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">16</td><td id="1000009682942" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682942&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Орал Қазына</a></div></div></td><td id="m0_1680254595954948078_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682942_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682942_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">17</td><td id="1000009682943" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682943&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Сәдуахас Аружан</a></div></div></td><td id="m0_1680254595954948078_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682943_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682943_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">18</td><td id="1000009682944" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682944&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Толыбай Ләззат</a></div></div></td><td id="m0_1680254595954948078_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682944_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682944_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">19</td><td id="1000009682949" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682949&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Уалихан Әсем</a></div></div></td><td id="m0_1680254595954948078_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682949_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682949_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr><tr><td class="persN">20</td><td id="1000009682948" class="persName " ><div class="persName-row"><div class="persName-name-cell"><a href="https://schools.kundelik.kz/marks.aspx?school=1000006542951&group=1659138737136482707&student=1000009682948&tab=stats" target="_blank" title="Перейти на страницу оценок ученика" >Усипбаев Бактыбек</a></div></div></td><td id="m0_1680254595954948078_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948079_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948082_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948080_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948081_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948083_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948084_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948085_1000009682948_2_1" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td><td id="m0_1680254595954948086_1000009682948_2_0" class="mark mark_e  final mX"><span><div class="pres" ></div><div></div></span></td></tr></tbody></table>
-    
-</div>
-
-
-
-<div id="editmarkcomment" class="markcomment_holder">
-    <div class="fancybox-content">
-        <div class="main">
-            <div class="markcomment">
-                <div class="title">Комментарий:</div>
-                <textarea id="commentText"></textarea>
-                <div class="hint">
-                    <p>Для сохранения нажмите Ctrl+Enter.</p>
-                    <p>Для отмены нажмите Esc.</p>
-                </div>
-                <button id="saveComment">Сохранить</button>
-                <button id="cancelComment">Отмена</button>
-            </div>
+        })(document, window, 'yandex_metrika_callbacks');
+        require(['analytics/commonYaMetrika']);
+    </script>
+    <noscript>
+        <div>
+            <img src="//mc.yandex.ru/watch/18707305" style="position: absolute; left: -9999px;" alt="" />
         </div>
-    </div>
-</div>
-<input type="hidden" id="chat-link-help-tootltip-text" value="Не зарегистрирован. Написать в чат можно только зарегистрированным ученикам и родителям. &lt;a href=&quot;https://help.dnevnik.ru/hc/ru/articles/203476018&quot; target=&quot;_blank&quot;&gt;Как зарегистрировать?&lt;/a&gt;"/>
-<script type="text/javascript">
-    var global_obligatory_comments = false,
-        global_urlMarkEdit = "https://schools.kundelik.kz/ajax.ashx?xss=638a6a3995cfeec66ba2f85eceea5bd931b1996185e50e29e5347294fa2d23cc&a=editComplexMark&school=1000006542951",
-        global_journalMarkError = "Некорректное заполнение журнала.",
-        global_SetSimpleScript = false,
-        global_urlMarkVersionView =
-            "https://schools.kundelik.kz/ajaxpages/markversionview.aspx?school=1000006542951&group=1659138737136482707&subject=1659474861277080979",
-        global_urlCommentEdit = "https://schools.kundelik.kz/ajax.ashx?xss=638a6a3995cfeec66ba2f85eceea5bd931b1996185e50e29e5347294fa2d23cc&a=llce&sid=1000006542951&lid=";
-</script>
+    </noscript>
+    <!-- Yandex.Metrika counter -->
+
     
 
-<script>
-    window.__MEDIA_WIDGET__INITIAL__STATE__ = {"apiUrl":"https://attachments.kundelik.kz/api","officeOnlineBaseUrl":"https://kundelik.kz/office","officeOnlineAvailableExtensions":[],"maxUploadFileSize":"5242880","maxUploadFileSizeMessage":"до 5 Мб. <a href=\"https://kundelik.zendesk.com/hc/ru/articles/360010285598\" target=\"_blank\">Подробнее...</a>"};
-</script>
-</div>
 
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-<div class="clear"></div>
-
-</div>
-
-
-
-
-<!-- Yandex.Metrika counter-->
-
-<script type="text/javascript">
-    require(['yandexMetrika/yandexMetrikaCounter']);
-	require(['analytics/commonYaMetrika']);
-</script>
-
-<noscript><div><img src="//mc.yandex.ru/watch/36220965" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- Yandex.Metrika counter -->
-<span> <script type="text/javascript" >
-                    require(['https://static.kundelik.kz/assets/scripts/controls/schools/usercontrols/journals/journalRemark.js?v=a0e537de','https://static.kundelik.kz/assets/scripts/controls/schools/usercontrols/journals/ajaxPageJournalRemark.js?v=7d775a65'], function(dep0,dep1) {
-                        $(function () { 
-                            dep0({"pageCreateUrl":"https://schools.kundelik.kz:443/AjaxPages/Journals/JournalRemarkCreate.aspx?schoolID=1000006542951&groupID=1659138737136482707&subjectID=1659474861277080979","errorMessage":"Произошла ошибка","fixedMessage":"Замечание исправлено"});
-dep1({"handlerCreateUrl":"https://schools.kundelik.kz:443/ajax.ashx?xss=638a6a3995cfeec66ba2f85eceea5bd931b1996185e50e29e5347294fa2d23cc&a=cjrns","errorMessage":"Произошла ошибка","emptyRemarkTextMessage":"Текст замечания не может быть пустым"});
-
-                        });
-                    });
-                </script><script type="text/javascript" src="https://static.kundelik.kz/assets/scripts/modules/common/adsbygoogle.js?v=44cf0943">
-
-</script></span>
-</body>
-</html>
+</body></html>
